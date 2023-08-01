@@ -1,0 +1,1 @@
+let burger=document.getElementById("burger"),nav=document.getElementById("main-nav"),slowmo=document.getElementById("slowmo");burger.addEventListener("click",function(n){this.classList.toggle("is-open"),nav.classList.toggle("is-open")}),$(ele).one("webkitAnimationEnd oanimationend msAnimationEnd animationend",function(){window.location.href=newURL});
